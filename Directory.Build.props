@@ -1,13 +1,16 @@
 <Project>
-   <ItemGroup Condition="$(TargetFramework.StartsWith('net4')) And '$(_MicrosoftNetSdkWindowsDesktop)' == 'true'">   
-    <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xaml" />
-    <Reference Include="PresentationCore" />
-    <Reference Include="PresentationFramework" />
-    <Reference Include="WindowsBase" />
-    <Reference Include="Accessibility" />
-    <Reference Include="UIAutomationClient" />
-    <Reference Include="UIAutomationProvider" />
-    <Reference Include="UIAutomationTypes" />
-  </ItemGroup>
-</Project> 
+	<ItemGroup Condition="$(TargetFramework.StartsWith('net4')) And '$(_MicrosoftNetSdkWindowsDesktop)' == 'true'">
+		<Reference Include="System.Windows.Forms" />
+		<Reference Include="System.Xaml" />
+		<Reference Include="PresentationCore" />
+		<Reference Include="PresentationFramework" />
+		<Reference Include="WindowsBase" />
+		<Reference Include="Accessibility" />
+		<Reference Include="UIAutomationClient" />
+		<Reference Include="UIAutomationProvider" />
+		<Reference Include="UIAutomationTypes" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Gtk4.Forms.Wpf" Version="1.0.0.*" />
+	</ItemGroup>
+</Project>
