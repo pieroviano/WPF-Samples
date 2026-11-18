@@ -232,4 +232,4 @@ _Pvt_Extensions
 *.binlog
 /.dotnet
 
-.XamarinFormsVersionFile.txt
+.Gtk4FormsVersionFile.txt
