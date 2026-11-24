@@ -70,6 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="11.0.0" />
+    <PackageReference Include="Gtk4.Forms.Wpf" Version="1.0.0.*" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="app.ico" />
