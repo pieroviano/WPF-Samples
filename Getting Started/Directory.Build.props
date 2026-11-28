@@ -1,5 +1,5 @@
 <Project>
 	<ItemGroup>
-		<PackageReference Include="Gtk4.Forms.Wpf" Version="1.0.0.*" />
+		<PackageReference Include="Gtk4.Wpf" Version="1.0.0.*" />
 	</ItemGroup>
 </Project>
